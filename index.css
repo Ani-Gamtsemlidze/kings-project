@@ -38,9 +38,10 @@
 
 
 .diplomas-img {
-    margin-top: 40px;
+    margin-top: 60px;
     position: relative;
     z-index: 1;
+    display: flex;
 }
 
 .diplomas-img img{
@@ -56,7 +57,7 @@
 .pedagoge-page{
     background-color: #F2F2F2;
     padding: 35px 40px 53px 33px;
-    box-shadow: inset -5px -2px 9px rgb(0 0 0 / 20%);
+    box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.35);
     position: relative;
 }
 
@@ -65,16 +66,26 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 300px;
     background-color: #03678B;
     content: "";
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    height: 450px;
 }
 .kings-page{
     background-color: rgb(253, 179, 41);
     box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 36px 23px 19px 31px;
     background: #FFC755;
+}
+.cancel-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.vector{
+    position: absolute;
+    top: 0;
+    right: 95px;
+    cursor: pointer;
 }
 .kings-title{
     color: #00749E;
@@ -141,10 +152,17 @@ button{
     text-align: center;
     color: #03678B;
     padding: 0 20px;
+    margin-top: 11px;
 }
 
 .kings-icon {
     text-align: center;
+}
+.gift-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .question {
